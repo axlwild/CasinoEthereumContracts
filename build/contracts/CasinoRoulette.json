@@ -123,7 +123,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -142,7 +143,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -155,7 +157,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -174,7 +177,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -254,7 +258,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -267,7 +272,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -280,14 +286,16 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
       "name": "obtenerNumeroAleatorio",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [],
@@ -300,7 +308,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -325,7 +334,8 @@
       "name": "wager",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [
@@ -345,7 +355,8 @@
       "name": "fund",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [],
@@ -359,7 +370,8 @@
       "name": "valor",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"enum CasinoRoulette.BetType\",\"name\":\"betType\",\"type\":\"uint8\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"block\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"choice\",\"type\":\"int256\"}],\"name\":\"BetPlaced\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"}],\"name\":\"LogExito\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"enum CasinoRoulette.BetType\",\"name\":\"betType\",\"type\":\"uint8\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"block\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"choice\",\"type\":\"int256\"},{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"landed\",\"type\":\"int256\"},{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"win\",\"type\":\"bool\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Spin\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"BLACK_NUMBERS\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"name\":\"COLORS\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"NUM_POCKETS\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"RED_NUMBERS\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"Roulette\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"myid\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"result\",\"type\":\"string\"}],\"name\":\"__callback\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_myid\",\"type\":\"bytes32\"},{\"internalType\":\"string\",\"name\":\"_result\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"_proof\",\"type\":\"bytes\"}],\"name\":\"__callback\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"bets\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"enum CasinoRoulette.BetType\",\"name\":\"betType\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"block\",\"type\":\"uint256\"},{\"internalType\":\"int256\",\"name\":\"choice\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"counter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"fund\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kill\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"numero\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"obtenerNumeroAleatorio\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"spin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"valor\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"enum CasinoRoulette.BetType\",\"name\":\"betType\",\"type\":\"uint8\"},{\"internalType\":\"int256\",\"name\":\"choice\",\"type\":\"int256\"}],\"name\":\"wager\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Microsoft/Documents/Blockchains/Casino_contracts/contracts/CasinoRoulette.sol\":\"CasinoRoulette\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Microsoft/Documents/Blockchains/Casino_contracts/contracts/CasinoRoulette.sol\":{\"keccak256\":\"0x43bf789c208a7d49194546180b58ff1b03f7ee0d697e30c2c8cc18dc8f2a1aaf\",\"urls\":[\"bzz-raw://a6369264e558ae796d51b7abbecb136ddf1285882df81150887eab540612ed21\",\"dweb:/ipfs/QmRJmWxFnn7t53eH5y6moSrAZy35tG9eA6MDNGH18Smjb4\"]},\"/C/Users/Microsoft/Documents/Blockchains/Casino_contracts/contracts/numeroAleatorio.sol\":{\"keccak256\":\"0x76dfb4182e8fdb7b7952f5fb9c8831eef5e5bf70a56d0f5557bf7581304776f9\",\"urls\":[\"bzz-raw://601bb2e7f436a43e4c06a26b34c349a8ce3ed28ca13ee700d3bc6bd9cf7035e3\",\"dweb:/ipfs/QmNyaHXhCVGsxdDyQHSh9mYVSH2F4gwtCtHD2nDTkpe67R\"]},\"/C/Users/Microsoft/Documents/Blockchains/Casino_contracts/contracts/usingProvable.sol\":{\"keccak256\":\"0x1fc6722eebb007804dc77ee8e11687a961b4e544ccccf8af18d8f445e0f52a34\",\"urls\":[\"bzz-raw://eaf215a13707520c96593e2d662d8e3eb18ff439a05468bc8e453532fe1e8286\",\"dweb:/ipfs/QmSEi8wMqzGPjH6d6KbZJzz4SgvSAHgCMVgFNtHXmhCUvW\"]}},\"version\":1}",
@@ -13408,9 +13420,123 @@
     "name": "solc",
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "3": {
+      "events": {
+        "0x073b5ec4b380fe7946a919d4f1e878d05d0ae97a6c7002d7fdda01784db87cd9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "enum CasinoRoulette.BetType",
+              "name": "betType",
+              "type": "uint8"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "block",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "int256",
+              "name": "choice",
+              "type": "int256"
+            }
+          ],
+          "name": "BetPlaced",
+          "type": "event"
+        },
+        "0x2cd4dcdf8637f6575cd99cd984321d327d806bc16dafb0ade703b695155940a3": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            }
+          ],
+          "name": "LogExito",
+          "type": "event"
+        },
+        "0x9ea37f9dcbbc33196d55ebd589a3c9749f890f00075dd6419ca04d6a27c9fee3": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "enum CasinoRoulette.BetType",
+              "name": "betType",
+              "type": "uint8"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "block",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "int256",
+              "name": "choice",
+              "type": "int256"
+            },
+            {
+              "indexed": false,
+              "internalType": "int256",
+              "name": "landed",
+              "type": "int256"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "win",
+              "type": "bool"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Spin",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x7efd0Ca7Ec0e56b03E0081e8EFb6A705538D96a6",
+      "transactionHash": "0x4ecdab6d67705b2528b7f670c782bc3af3306747ffdfcd2d463fb3780d841209"
+    }
+  },
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-06-15T05:52:07.693Z",
+  "updatedAt": "2020-06-15T06:36:36.377Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
