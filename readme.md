@@ -1,7 +1,11 @@
 # Casino
 
 ## Integrantes
-Axel Cervantes.
+
+- Axel Cervantes.
+- Henry Martínez.
+- Víctor Sánchez.
+- Daniel Vargas.
 
 Los archivos con terminación SP no ocupan provable de oráculo.
 
