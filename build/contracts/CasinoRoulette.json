@@ -397,7 +397,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 470,
-        "sourceUnit": 3318,
+        "sourceUnit": 3341,
         "src": "25:31:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -412,10 +412,10 @@
               "id": 3,
               "name": "Aleatorio",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3317,
+              "referencedDeclaration": 3340,
               "src": "85:9:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Aleatorio_$3317",
+                "typeIdentifier": "t_contract$_Aleatorio_$3340",
                 "typeString": "contract Aleatorio"
               }
             },
@@ -425,8 +425,8 @@
           }
         ],
         "contractDependencies": [
-          3317,
-          10135
+          3340,
+          10158
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -434,8 +434,8 @@
         "id": 469,
         "linearizedBaseContracts": [
           469,
-          3317,
-          10135
+          3340,
+          10158
         ],
         "name": "CasinoRoulette",
         "nodeType": "ContractDefinition",
@@ -3506,7 +3506,7 @@
                       "name": "obtenerNumeroAleatorio",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3253,
+                      "referencedDeclaration": 3276,
                       "src": "1954:22:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -4243,7 +4243,7 @@
                       "name": "obtenerNumeroAleatorio",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3253,
+                      "referencedDeclaration": 3276,
                       "src": "2308:22:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -4338,7 +4338,7 @@
                                 "name": "numero",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 3189,
+                                "referencedDeclaration": 3212,
                                 "src": "2481:6:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint8",
@@ -6914,7 +6914,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 470,
-        "sourceUnit": 3318,
+        "sourceUnit": 3341,
         "src": "25:31:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -6929,10 +6929,10 @@
               "id": 3,
               "name": "Aleatorio",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3317,
+              "referencedDeclaration": 3340,
               "src": "85:9:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Aleatorio_$3317",
+                "typeIdentifier": "t_contract$_Aleatorio_$3340",
                 "typeString": "contract Aleatorio"
               }
             },
@@ -6942,8 +6942,8 @@
           }
         ],
         "contractDependencies": [
-          3317,
-          10135
+          3340,
+          10158
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -6951,8 +6951,8 @@
         "id": 469,
         "linearizedBaseContracts": [
           469,
-          3317,
-          10135
+          3340,
+          10158
         ],
         "name": "CasinoRoulette",
         "nodeType": "ContractDefinition",
@@ -10023,7 +10023,7 @@
                       "name": "obtenerNumeroAleatorio",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3253,
+                      "referencedDeclaration": 3276,
                       "src": "1954:22:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -10760,7 +10760,7 @@
                       "name": "obtenerNumeroAleatorio",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3253,
+                      "referencedDeclaration": 3276,
                       "src": "2308:22:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$__$returns$__$",
@@ -10855,7 +10855,7 @@
                                 "name": "numero",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 3189,
+                                "referencedDeclaration": 3212,
                                 "src": "2481:6:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint8",
@@ -13523,7 +13523,7 @@
     }
   },
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-06-15T18:34:26.023Z",
+  "updatedAt": "2020-06-16T01:17:43.724Z",
   "devdoc": {
     "methods": {}
   },
